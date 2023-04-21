@@ -1,6 +1,5 @@
 from rest_framework import serializers
 from django.forms import ValidationError
-from rest_framework import serializers
 from reviews.models import User, Title, Category, Genre, Comment, Review
 from rest_framework.generics import get_object_or_404
 from api_yamdb.settings import USERNAME_MAX_LENGTH, EMAIL_MAX_LENGTH
